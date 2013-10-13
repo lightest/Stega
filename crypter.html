@@ -1,0 +1,36 @@
+﻿<!doctype html>
+<html>
+
+<head>
+
+<link rel="stylesheet" href="style/style.css"/>
+
+<script type="text/javascript" src="js/lib/jquery-2.0.3.js"></script>
+<script type="text/javascript" src="js/logic.js"></script>
+
+</head>
+
+
+<body id="crypter">
+<div class="drop-wrapper">
+	<div class="drop-zone">Drop the image man!<br>
+	<span style="font-size: 12px; color: #afafaf;">(use 16:9 pics otherwise the image will look like shit)</span>
+	</div>
+</div>
+
+
+<div class="result-wrapper invisible">
+	<div style="margin: 10px 0">
+		<input type="text" class="input">
+		<div id="crypt" class="button blue" style="width: 620px;">Crypt dat shit!</div>
+	</div>
+	<img id="given" class="display" alt="original">
+	<img id="crypted" class="display" alt="crypted">
+	<span class="invisible">Great! Now save the pic on the right and upload it in decrypter.html</span>
+</div>
+
+<canvas class="invisible"></canvas>
+
+</body>
+
+</html>
