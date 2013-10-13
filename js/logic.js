@@ -51,7 +51,7 @@ function crypt(){
 		var g = d.data[i-2];
 		var b = d.data[i-1];
 	*/
-		//now it's possible to modify rgb content of every 50 pixels of the given image
+		//now it's possible to modify rgb content of every 70 pixels of the given image
 		var c = codes.shift();
 		if(c == undefined){
 			d.data[i] = 254;   //alpha; we'll decrease the alpha value as mark of msg end
